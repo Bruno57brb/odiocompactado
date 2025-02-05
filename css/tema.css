@@ -1,0 +1,100 @@
+/* Estilos para o tema escuro */
+.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-theme .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-theme .btn {
+    background-color: #333;
+    color: white;
+}
+
+/* Estilos para o tema claro */
+.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.light-theme .card {
+    background-color: #fff;
+    color: black;
+}
+
+.light-theme .btn {
+    background-color: #eee;
+    color: black;
+}
+
+/* Estilo do botão redondo */
+.theme-switch {
+    width: 50px; /* Tamanho do botão */
+    height: 50px;
+    border-radius: 50%; /* Torna o botão redondo */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de interruptor */
+.theme-switch.active {
+    transform: rotate(180deg); /* Gira o botão ao alternar */
+}
+
+/* Cores do botão no tema claro */
+.theme-switch.light {
+    background-color: #f0f0f0; /* Cor de fundo no tema claro */
+    color: #333; /* Cor do ícone no tema claro */
+}
+
+/* Cores do botão no tema escuro */
+.theme-switch.dark {
+    background-color: #333; /* Cor de fundo no tema escuro */
+    color: #f0f0f0; /* Cor do ícone no tema escuro */
+}
+
+.theme-switch {
+    position: absolute; /* Fixa o botão na tela */
+    top: 20px;
+    left: 80%; /* Move o botão para a esquerda */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
